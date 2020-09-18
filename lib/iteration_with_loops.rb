@@ -11,10 +11,9 @@ def find_min_in_nested_arrays(src)
       if src[counter][inner_counter] < min 
         min = src[counter][inner_counter]
       end
-      inner_counter += 1 
-      array_tracker += 1
-      results << min
+      inner_counter += 1
     end
+     results << min
     counter += 1 
   end
   results
