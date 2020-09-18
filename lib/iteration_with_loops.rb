@@ -13,7 +13,7 @@ def find_min_in_nested_arrays(src)
       end
       inner_counter += 1 
       array_tracker += 1
-      reuslts << min
+      results << min
     end
     counter += 1 
   end
