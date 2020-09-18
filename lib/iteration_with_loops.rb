@@ -4,8 +4,8 @@ def find_min_in_nested_arrays(src)
   results = []
   counter = 0 
   array_tracker = 0 
-  min = src[counter][array_tracker]
   while counter < src[].count do
+    min = src[counter][0]
     inner_counter = 0 
     while inner_counter < src[counter].count do
       if src[counter][inner_counter] < min 
